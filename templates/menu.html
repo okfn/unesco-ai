@@ -1,0 +1,27 @@
+<nav id="contents">
+  <ul>
+    <li><a href="{{ '/'|url }}">Home</a></li>
+    <li>
+      <a href="{{ '/faq/'|url }}">FAQ</a>
+    </li>
+    <li>
+      <a href="{{ '/about/'|url }}">About</a>
+      <ul>
+        <li><a href="{{ '/about/advisory-council/'|url }}">Advisory Council</a></li>
+        <li><a href="{{ '/contact/'|url }}">Contact</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<script src="{{ '/static/mmenu-js/dist/mmenu.polyfills.js'|url }}"></script>
+<script src="{{ '/static/mmenu-js/dist/mmenu.js'|url }}"></script>
+<script>
+  document.addEventListener(
+    "DOMContentLoaded", function() {
+      new Mmenu("#contents", {
+        navbar: { title: "UNESCO AI"}
+      });
+    }
+  );
+</script>

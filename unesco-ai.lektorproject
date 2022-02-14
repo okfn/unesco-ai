@@ -1,0 +1,21 @@
+[project]
+name = Unesco AI
+excluded_assets = *.scss
+
+# TODO: switch this to
+# url_style = absolute
+# when you move to unesco-ai site
+# to enable the custom 404 page
+url_style = relative
+
+
+[packages]
+lektor-scss = 1.4.1
+lektor-npm-support = 0.1.4
+
+
+[servers.ghp_https]
+target = ghpages+https://okfn/unesco-ai
+
+[servers.ghp_ssh]
+target = ghpages://okfn/unesco-ai

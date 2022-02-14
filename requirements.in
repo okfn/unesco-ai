@@ -1,0 +1,4 @@
+Lektor==3.3.1
+lektor-scss==1.4.1
+lektor-npm-support==0.1.4
+Werkzeug==2.0.3
