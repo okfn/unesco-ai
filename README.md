@@ -4,7 +4,7 @@ This static site is:
 
 * Built with [lektor](https://www.getlektor.com/)
 * Hosted on Github pages
-* Automatically deployed: Pushing to `master` will deploy the site using a GitHub action
+* Automatically deployed: Pushing to `main` will deploy the site using a GitHub action
 
 ## Local Development
 
